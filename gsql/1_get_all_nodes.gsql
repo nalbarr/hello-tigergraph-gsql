@@ -1,0 +1,8 @@
+// get_all_nodes.gsql
+
+CREATE QUERY get_all_movies() for GRAPH mygraph {
+	// cypher
+	// MATCH (p:Movice) RETURN p
+	m = {Movie.(};
+	PRINT m;
+}
